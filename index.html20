@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Ghoraib - محلل مالي محترف</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Cairo',sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh}
+        .container{max-width:1200px;margin:0 auto;padding:20px}
+        .hero{text-align:center;color:white;padding:100px 20px}
+        .hero h1{font-size:3.5em;margin-bottom:20px;text-shadow:2px 2px 4px rgba(0,0,0,0.3)}
+        .hero p{font-size:1.3em;margin-bottom:30px}
+        .cta{background:#25D366;color:white;padding:20px 40px;font-size:1.5em;border-radius:50px;text-decoration:none;display:inline-block;box-shadow:0 10px 30px rgba(37,211,102,0.4);transition:all 0.3s}
+        .cta:hover{transform:translateY(-3px);box-shadow:0 15px 40px rgba(37,211,102,0.6)}
+        .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;margin-top:80px}
+        .feature{background:white;padding:40px;border-radius:20px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.1);transition:all 0.3s}
+        .feature:hover{transform:translateY(-10px)}
+        .feature i{font-size:4em;color:#667eea;margin-bottom:20px}
+        .contact{padding:80px 20px;background:white;margin-top:80px;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,0.1)}
+        @media(max-width:768px){.hero h1{font-size:2.5em}.cta{font-size:1.2em;padding:15px 30px}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <h1>Ahmed Ghoraib</h1>
+            <p>محلل مالي محترف - تحليلات استثمارية دقيقة</p>
+            <a href="https://wa.me/201021872925?text=مرحبا Ahmed، محتاج استشارة مالية" class="cta">
+                <i class="fab fa-whatsapp"></i> تواصل واتساب
+            </a>
+        </section>
+        
+        <section class="features">
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h3>تحليل فني</h3>
+                <p>تحليلات فنية دقيقة لأسواق المال والعملات</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-brain"></i>
+                <h3>استراتيجيات تداول</h3>
+                <p>استراتيجيات متقدمة للتداول اليومي والطويل الأجل</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>إدارة مخاطر</h3>
+                <p>أنظمة إدارة مخاطر محترفة للحفاظ على رأس المال</p>
+            </div>
+        </section>
+        
+        <section class="contact">
+            <h2 style="text-align:center;margin-bottom:40px;color:#333">تواصل معانا</h2>
+            <div style="text-align:center;font-size:1.3em">
+                <p>📞 01021872925 | 01100545148</p>
+                <p>✉️ ahmedghoraib684@gmail.com</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
